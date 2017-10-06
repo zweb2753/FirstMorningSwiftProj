@@ -19,7 +19,16 @@ class ViewController: UIViewController
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func firstMethod(_ sender: UIButton) {
+    @IBAction func firstMethod(_ sender: UIButton)
+    {
+        if (firstButton.backgroundColor == .orange)
+        {
+            firstButton.backgroundColor == .black
+        }
+        else
+        {
+            firstButton.backgroundColor = .orange
+        }
     }
     override func didReceiveMemoryWarning()
     {
