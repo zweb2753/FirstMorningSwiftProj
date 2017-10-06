@@ -54,14 +54,30 @@
 		DC847ED31F87C8E4009D7F26 /* FirstMorningSwiftProj */ = {
 			isa = PBXGroup;
 			children = (
-				DC847ED41F87C8E4009D7F26 /* AppDelegate.swift */,
-				DC847ED61F87C8E4009D7F26 /* ViewController.swift */,
+				DC847EE91F87D9FD009D7F26 /* New Group */,
 				DC847ED81F87C8E4009D7F26 /* Main.storyboard */,
 				DC847EDB1F87C8E4009D7F26 /* Assets.xcassets */,
 				DC847EDD1F87C8E4009D7F26 /* LaunchScreen.storyboard */,
-				DC847EE01F87C8E4009D7F26 /* Info.plist */,
+				DC847EE61F87D933009D7F26 /* Settings */,
 			);
 			path = FirstMorningSwiftProj;
+			sourceTree = "<group>";
+		};
+		DC847EE61F87D933009D7F26 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DC847EE01F87C8E4009D7F26 /* Info.plist */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		DC847EE91F87D9FD009D7F26 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				DC847ED41F87C8E4009D7F26 /* AppDelegate.swift */,
+				DC847ED61F87C8E4009D7F26 /* ViewController.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
